@@ -1,0 +1,12 @@
+[programs.devnet]
+solana_ticket = "1MrmTe5gHrR86byi7ek2apudCP4qngo3Ap5AsWhahgj"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/lucatonnyr/.config/solana/id.json"
+
+[scripts]
+test = "node tests/solanaTicket.js"
