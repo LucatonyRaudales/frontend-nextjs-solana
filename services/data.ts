@@ -79,7 +79,7 @@ interface AccountInterface {
 
 export class DataBase {
   constructor() {
-    this.backendUrl = process.env.NEXT_PUBLIC_BACKEND;
+    this.backendUrl = "https://nextjs-solana-back.herokuapp.com";
   }
   backendUrl: string;
 
